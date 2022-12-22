@@ -1,0 +1,144 @@
+body{
+    color: rgb(255, 255, 255);
+    font-size: 20px
+    ;
+}
+
+.services{
+    padding: 100px;
+}
+
+
+.services_title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: .9rem;
+}
+
+.service-block_img{
+    width: 100%;
+}
+
+
+.service-button{
+    margin-top: 50px;
+    padding: 40px;
+    
+    
+}
+
+#service_button_hair, #service_button_nails {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.849);
+    border-bottom-color: #ffffff;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    letter-spacing: .4rem;
+    transition: all .3s linear;
+}
+
+#service_button_hair:hover, #service_button_nails:hover {
+    /* background: linear-gradient(rgb(0, 0, 0), #ffffff2e); */
+    background-color: #ffffff2e;
+    transition: .3s;
+
+}
+
+
+table{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    margin: 30px 0px;
+    color: aliceblue;
+    font-size: 24px;
+    letter-spacing: .4rem;
+    border-collapse: collapse;
+    border-spacing: 10px 20px;
+}
+
+th {
+    border-bottom: 2px solid #ffffff;
+ }
+
+tr td{
+    transition: all .5s linear;
+
+}
+
+tr:hover td {
+    background: #ffffff2e;
+    transition: .3s;
+}
+
+.button_appointment{
+    display: flex;
+    justify-content: center;
+    
+}
+.button1{
+    color: #fff;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    background-color: rgba(169, 84, 51, 0.794);
+    min-width: 120px;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    text-align: center;
+    transition: all .1s ease-in-out;
+    box-shadow: 0 4px 6px rgba(169, 84, 51, 0.794);
+}
+
+.button1:hover {
+    transform: scale(1.04);
+    background-color:rgb(207, 99, 56);
+    box-shadow: 0 9px 9px rgb(169, 84, 51);
+}
+
+@media(max-width: 800px){
+    #service_button_hair, #service_button_nails{
+        font-size: 24px;
+        letter-spacing: .4rem;
+    } 
+    .services{
+        padding: 20px;
+    }
+    .service-button{
+        margin-top: 50px;
+        padding: 20px;  
+    }
+
+}
+
+@media(max-width: 600px){
+    #service_button_hair, #service_button_nails{
+        font-size: 20px;
+        letter-spacing: .2rem;
+        height: 80px;
+    } 
+    table{
+        font-size: 18px;
+
+    }
+
+}
+
+@media(max-width: 420px){
+    #service_button_hair, #service_button_nails{
+        font-size: 20px;
+        letter-spacing: .2rem;
+        height: 80px;
+    } 
+    table{
+        font-size: 14px;
+        letter-spacing: .2rem;
+
+    }
+
+}

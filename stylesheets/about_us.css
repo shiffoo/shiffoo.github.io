@@ -1,0 +1,153 @@
+body {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: rgb(255, 252, 248);
+    background: rgb(0, 0, 0);
+    backface-visibility: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@media (max-width: 590px){
+    .right-about {
+        padding-top: 50px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .about-img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 470px){
+
+    .about-img{
+        width: 350px;
+    }
+    .about-article_text {
+        width: 350px;;
+    }
+}
+
+@media (max-width: 400px){
+
+    .about-img{
+        width: 282px;
+    }
+    .about-article_text {
+        width: 282px;
+        padding-left: 30px;
+    }
+}
+
+
+
+
+
+
+.about-article {
+    padding: 80px 0;
+    /* margin: 0 auto; */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.about-article_slogan {
+    font-size: 28px;
+    font-weight: 600;
+    max-width: 310px;
+    margin-top: 60px;
+}
+
+
+.about-article_title {
+    margin-bottom: 40px;
+    letter-spacing: 0.4rem;
+}
+
+.about-article_text {
+    font-size: 20px;
+    margin-bottom: 75px;
+    max-width: 440px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: .4rem;
+}
+
+.button_to-go{
+    padding-top: 20px;
+}
+
+.button_team {
+    color: #fff;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    background-color: rgba(169, 84, 51, 0.794);
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    text-align: center;
+    transition: all .1s ease-in-out;
+
+}
+
+.button_team:hover {
+    transform: scale(1.04);
+    background-color:rgb(207, 99, 56);
+}
+
+
+/* =====partner_section======= */
+
+.partners-section{
+    margin-top: 70px;
+    /* justify-content: center; */
+}
+
+
+.partners-section_title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: .4rem;
+}
+
+
+
+.partners-section_logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners_logos_img{
+    width: 240px;
+    margin: 30px;
+}
+
+.partners_logos_img:hover{
+    transform: scale(1.2);
+}

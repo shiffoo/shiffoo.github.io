@@ -1,0 +1,59 @@
+.gallery{
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+
+.gallery_title{
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-hair, .gallery-nails{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-hair_img, .gallery-nails_img{
+    max-width: 300px;
+    margin: 20px;
+    transition: all .3s linear;
+}
+
+.gallery-hair_img:hover, .gallery-nails_img:hover{
+    transform:scale(1.25);
+    /* transition: all .4s linear; */
+}
+
+@media(max-width: 1400px){
+    .gallery-hair, .gallery-nails{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .container{
+        width: 1000px;
+    }
+}
+
+@media(max-width: 1050px){
+    .gallery-hair, .gallery-nails{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .container{
+        width: 700px;
+    }
+
+}
+
+@media(max-width: 800px){
+    .gallery-hair, .gallery-nails{
+        grid-template-columns: repeat(1, 1fr);
+    } 
+    .container{
+        width: 350px;
+    }
+
+}
